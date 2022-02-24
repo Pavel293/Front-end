@@ -2,18 +2,14 @@
 <html>
     <head>
         <title>My first page</title>
-    </head>
-    <body> 
-        <frameset rows = "100, *, 100">
-            <frame src = "1.html" name = "top">
-            <frameset cols = "30%, 70%">
-                <frame src = "2.html" name = "right">
-                <frame src = "3.html" name = "down">
-            </frameset>
-            <frame src = "4.html" name = "left">
-            <noframes>
-                Не поддерживает фреймы
-            </noframes>
+    </head> 
+    <frameset rows = "15%, 70%, 15%">
+        <frame src = "1.html" name = "top">
+        <frameset cols = "30%, 70%">
+            <frame src = "2.html" name = "right">
+            <frame src = "3.html" name = "down">
         </frameset>
-    </body>
+        <frame src = "4.html" name = "left">
+        <noframes> Не поддерживает фреймы</noframes>
+    </frameset>
 </html>
