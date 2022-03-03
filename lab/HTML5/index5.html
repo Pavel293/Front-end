@@ -1,15 +1,15 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
     <head>
         <title>My first page</title>
     </head> 
-    <frameset rows = "15%, 70%, 15%">
-        <frame src = "1.html" name = "top">
-        <frameset cols = "30%, 70%">
-            <frame src = "4.html" name = "left">
-            <frame src = "2.html" name = "right">
-        </frameset>
-        <frame src = "3.html" name = "down">
-        <noframes> Не поддерживает фреймы</noframes>
-    </frameset>
+    <body>
+        <table width="100%" border="1">
+            <tr><th colspan = "2" height = "100"><iframe src = "1.html" frameborder="0"></iframe></th></tr>
+            <tr>
+                <th><iframe src = "4.html" frameborder="0"></iframe></th>
+                <th><iframe src = "2.html" frameborder="0"></iframe></th>
+            </tr>
+            <tr><th colspan = "2" height = "100"><iframe src = "3.html" frameborder="0"></iframe></th></tr>
+        </table>
+    </body>
 </html>
