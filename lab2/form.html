@@ -8,41 +8,49 @@
             <legend>
                 Registration
             </legend>
-            <p><label for="number">Identification Number</label></p>
-            <p><input type="text" id="number"></p>
-            <p><label for="name">Legal Name</label></p>
-            <p><input type="text" id="name"></p>
-            <p><label for="address1">Address 1</label></p>
-            <p><input type="text" id="address1"></p>
-            <p><label for="address2">Address 2</label></p>
-            <p><input type="text" id="address2"></p>
             <table>
                 <tr>
-                    <th><label for="city">City</label></th>
-                    <th><label for="state">State</label></th>
-                    <th><label for="zip">zip</label></th>
-                    <th><label for="country">Country</label></th>
+                    <td colspan="4">
+                        <p><label>Identification number:</label><br> <input type="text" size = 100></p>
+                        <p><label>Legal name:</label> <br><input type="text" size = 100></p> 
+                        <p><label>Address 1:</label><br><input type="text" size = 100></p>
+                        <p><label>Address 2:</label><br><input type="text" size = 100></p>
+                    </td>
                 </tr>
                 <tr>
-                    <th><input type="text" id="city"></th>
-                    <th><input type="text" id="state"></th>
-                    <th><input type="text" id="zip"></th>
-                    <th>
-                        <select id="country">
-                            <option>United States</option>
-                            <option>Russia</option>
-                        </select>
+                    <td>
+                        <p><label>City:</label><br><input type="text"></p>
+                    </td>
+                    <td>
+                        <p><label>State:</label><br><input type="text"></p>
+                    </td>
+                    <td>
+                        <p><label>Zip:</label><br><input type="text"></p>
+                    </td>
+                    <td>
+                        <p>
+                            <label>Country:</label>
+                            <br>
+                            <select>
+                                <option>USA</option>
+                                <option>Russia</option>
+                            </select>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><label>Phone:</label><br><input type="tel"></p>
+                    </td>
+                    <td colspan="3">
+                        <p><label>Email:</label><br><input size= 74 type="email"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="4">
+                        <p><input type="reset">
+                        <input type="submit"></p>
                     </th>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th><label for="phone">Phone</label></th>
-                    <th><label for="email">E-mail</label></th>
-                </tr>
-                <tr>
-                    <th><input type="text" id="phone"></th>
-                    <th><input type="email" id="email"></th>
                 </tr>
             </table>
             <p><input type="reset" value=" Reset "><input type="submit" value=" Submit "></p>
