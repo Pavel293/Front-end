@@ -1,0 +1,319 @@
+
+body {
+    background-color: #1E90FF80;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+main {
+    margin:  0;
+}
+.navbar {
+    margin-top: 25px;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 12px;
+    font-size: 16px;
+}
+.logo {
+    width: 93px;
+    height: 42px;
+    margin: 0 256px 0 64px;
+    vertical-align: middle;
+}
+.menu_btn{
+    vertical-align: middle;
+    display: none;
+}
+.menu_btn_click {
+    background: none;
+    border: none;
+    display: none;
+}
+.navbar .show_menu {
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    left: 0;
+    top: 0;
+    width: 15%;
+    padding: 40px 20px 20px 40px;
+}
+.navbar .show_menu li {
+    display: block;
+    color: #ffffff;
+    text-align: left;
+}
+.menu {
+    display: inline;
+}
+.menu li {
+    display: inline-block;
+    margin:  35px 60px 29px 0px;
+}
+.reg_button {
+    margin: 24px 28px 18px 55px;
+    width: 127px;
+    height: 41px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #7372FF;
+    border-color: #7372FF;
+    border-width: 1px;
+}
+.log_button {
+    margin: 24px 48px 18px 0px;
+    width: 127px;
+    height: 41px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #7372FF;
+    border-color: #7372FF;
+    border-width: 1px;
+}
+.article {
+    text-align: left;
+    color: #0A2541;
+    display: inline-block;
+}
+.art_head {
+    font-size: 64px;
+}
+.art_body {
+    font-size: 24px;
+}
+.image {
+    display: inline-block;
+}
+.form_button {
+    width: 127px;
+    height: 41px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #7372FF;
+    border-color: #7372FF;
+    border-width: 1px;
+    display: block;
+}
+.label {
+    display: block;
+    font-size: 16px;
+    text-decoration: underline;
+    opacity: 0.5;
+    margin-bottom: 7px;
+}
+.textbox {
+    margin-bottom: 39px;
+    display: block;
+    width: 475px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #2A92F9;
+    border-width: 1px;
+    font-size: 16px;
+}
+
+@media (max-width: 374.98px){
+    .logo {
+        margin: 0px 0px 0px 10px;;
+    }
+    .menu {
+        margin: 0;;
+        display: none;
+    }
+    .menu_btn {
+        display: inline;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .menu_btn_click {
+        background: none;
+        border: none;
+        display: inline;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .reg_button {
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 60px;
+    }
+    .log_button {
+        margin-right: 10px;
+        width: 60px;
+    }
+    .art_head {
+        font-size: 30px;
+    }
+    .art_body {
+        font-size: 14px;
+    }
+    .textbox {
+        width: 290px;
+    }
+    .navbar .show_menu {
+        width: 25%;
+    }
+}
+
+@media (max-width: 424.98px) and (min-width: 375px){
+    .logo {
+        margin: 0px 10px 0px 10px;;
+    }
+    .menu {
+        margin: 0;;
+        display: none;
+    }
+    .menu_btn {
+        display: inline;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .menu_btn_click {
+        background: none;
+        border: none;
+        display: inline;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .reg_button {
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 75px;
+    }
+    .log_button {
+        margin-right: 10px;
+        width: 75px;
+    }
+    .art_head {
+        font-size: 36px;
+    }
+    .art_body {
+        font-size: 16px;
+    }
+    .textbox {
+        width: 325px;
+    }
+    .navbar .show_menu {
+        width: 20%;
+    }
+}
+
+@media (max-width: 575.98px) and (min-width: 425px){ 
+    .logo {
+        margin: 0px 20px 0px 10px;;
+    }
+    .menu {
+        margin: 0;;
+        display: none;
+    }
+    .menu_btn {
+        display: inline;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .menu_btn_click {
+        background: none;
+        border: none;
+        display: inline;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .reg_button {
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 90px;
+    }
+    .log_button {
+        margin-right: 10px;
+        width: 90px;
+    }
+    .art_head {
+        font-size: 40px;
+    }
+    .art_body {
+        font-size: 18px;
+    }
+    .textbox {
+        width: 350px;
+    }
+    .navbar .show_menu {
+        width: 20%;
+    }
+ }
+
+@media (max-width: 767.98px) and (min-width: 576px) { 
+    .logo {
+        margin: 0px 40px 0px 20px;;
+    }
+    .menu {
+        margin: 0;;
+        display: none;
+    }
+    .menu_btn {
+        display: inline;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .menu_btn_click {
+        background: none;
+        border: none;
+        display: inline;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .reg_button {
+        margin-right: 20px;
+        margin-left: 20px;
+        width: 90px;
+    }
+    .log_button {
+        margin-right: 20px;
+        width: 90px;
+    }
+ }
+
+@media (max-width: 991.98px) and (min-width: 768px) { 
+    .logo {
+        margin-left: 20px;
+        margin-right: 40px;
+        padding: 0;
+    }
+    .menu {
+        margin: 0;
+    }
+    .menu li {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .reg_button {
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 90px;
+    }
+    .log_button {
+        margin-right: 10px;
+        margin-left: 20px;
+        width: 90px;
+    }
+ }
+
+@media (max-width: 1230.98px) and (min-width: 992px) { 
+    .logo {
+        margin: 0 20px 0 45px;
+    }
+    .menu li {
+        margin-right: 42px;
+        
+    }
+    .reg_button {
+        margin-right: 20px;
+        margin-left: 0px;
+    }
+    .log_button {
+        margin-right: 34px;
+    }
+ }
+
+@media (max-width: 1399.98px) and (min-width: 1231px) { 
+    
+ }
